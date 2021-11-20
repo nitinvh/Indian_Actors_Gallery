@@ -75,6 +75,7 @@ h1{
     border-top-right-radius: 1.5vh;
     
     background-color: rgba(100,110,110,0.2);
+    padding-bottom: 10vh;
 }
 #container{
     height: 100%;
@@ -106,6 +107,7 @@ font-family: 'Special Elite', cursive;
     width: 60vh;
 }
 .quote{
+    
     margin-top: 2vh;
     text-align: center;
     display: flex;
@@ -118,6 +120,7 @@ font-family: 'Sacramento', cursive;
 font-family: 'Special Elite', cursive;
 }
 .quote1{
+    
     margin-top: 2vh;
     text-align: center;
     display: flex;
