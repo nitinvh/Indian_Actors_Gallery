@@ -129,6 +129,26 @@ font-family: 'Special Elite', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Special Elite', cursive;
 }
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Special Elite', cursive;
+
+}
+#about div p{
+    width: 50vw;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    font-family: 'Special Elite', cursive;
+}
+#portfolio{
+    width: 15vh;
+    border-radius: 50%;
+}
 @media(max-width: 910px){
     .sep{
         display: flex;
