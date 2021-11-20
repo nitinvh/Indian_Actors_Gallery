@@ -6,17 +6,34 @@ body{
     margin:1.25rem;
     overflow:hidden;
     text-align: center;
+    overflow-y:scroll;
+    scrollbar-color: rgba(100,110,110,0.2) rgba(255,240,240,0.5);
 
+}
+body::-webkit-scrollbar{
+    width: 0.5vw;
+}
+body::-webkit-scrollbar-track {
+    background:rgba(255,240,240,0.5);
+    border-radius: 0.5rem;
+}
+body::-webkit-scrollbar-thumb {
+background-color: rgba(100,110,110,0.2); 
+
+border:0.35rem solid rgba(255,240,240,0.5);
+border-radius: 0.5rem;
 }
 nav{
     width: 100%;
-    background-color: rgba(100,110,110,0.2);
+    
+    background-color: rgba(255,240,240,0.5);
     height: 10vh;
-    padding: 2vh 0.5vw 0.2vh 0.5vw;
+    padding: 0.5vh 0.5vw 0.2vh 0.5vw;
     display: flex;
     flex-direction: row;
     justify-content: start;
     align-items: start;
+    position: -webkit-sticky;
 }
 nav a{
     text-decoration: none;
@@ -54,6 +71,67 @@ h1{
     justify-content: center;
     align-items: center;
     margin: 0 0 0 0;
-    padding: 1vh 0.5vw 2vh 0.5vw;
+    border-top-left-radius: 1.5vh;
+    border-top-right-radius: 1.5vh;
+    
     background-color: rgba(100,110,110,0.2);
+}
+#container{
+    height: 100%;
+    background-color: rgba(100,110,110,0.2);
+    border-bottom-left-radius: 1.5vh;
+    border-bottom-right-radius: 1.5vh;
+   
+    
+}
+
+.sep{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgicon{
+    margin: 2vh 0 2vh 0;
+    border: 0.3vh solid black;
+    border-radius: 0.3vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Special Elite', cursive;
+}
+.imgicon img{
+    border-radius: 0.3vh;
+    width: 60vh;
+}
+.quote{
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Special Elite', cursive;
+}
+.quote1{
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+    font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Special Elite', cursive;
+}
+
+.word sub{
+    
+    
+
 }
