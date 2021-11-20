@@ -132,6 +132,7 @@ font-family: 'Special Elite', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Special Elite', cursive;
 }
+
 #about{
     display: flex;
     flex-direction: column;
@@ -158,9 +159,7 @@ font-family: 'Special Elite', cursive;
         flex-direction: column;
         justify-content: center;
     }
-    .quote1{
-        border-top: 1vh solid black;
-    }
+    
 }
 @media(max-width:640px){
     .imgicon img{
