@@ -127,6 +127,9 @@ font-family: 'Special Elite', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Special Elite', cursive;
 }
+.quote:hover{
+    opacity: 0.7;
+}
 .quote1{
     
     margin-top: 2vh;
@@ -139,6 +142,9 @@ font-family: 'Special Elite', cursive;
     font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Special Elite', cursive;
+}
+.quote1:hover{
+    opacity: 0.7;
 }
 
 #about{
