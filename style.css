@@ -109,6 +109,12 @@ h1{
     font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Sacramento', cursive;
 font-family: 'Special Elite', cursive;
+transition: 0.4s;
+}
+.imgicon:hover{
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+
 }
 .imgicon img{
     border-radius: 0.3vh;
